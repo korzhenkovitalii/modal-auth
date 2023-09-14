@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <link rel="stylesheet" href="./sass/_all-partials.scss" />
+    <script type="module" src="./index.js"></script>
+  </head>
+  <body>
+    <!--HTML -->
+    <div class="overlay-modal">
+      <div class="container-modal">
+        <button class="btn-close-modal">
+          <svg width="25" height="25">
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+
+        <div class="block">
+          <section class="block__item block-item">
+            <h2 class="block__title">Do you have a account?</h2>
+            <button class="block-item__btn signin-btn">Sign in</button>
+          </section>
+          <section class="block__item block-item">
+            <h2 class="block__title">Don't have an account?</h2>
+            <button class="block-item__btn signup-btn">Sign up</button>
+          </section>
+        </div>
+
+        <div class="form-box">
+          <form action="#" class="form form__signin">
+            <h3 class="form-title">Use your account</h3>
+            <p>
+              <input
+                type="text"
+                name="email"
+                class="form__input"
+                placeholder="Email"
+              />
+            </p>
+            <p>
+              <input
+                type="password"
+                name="password"
+                class="form__input"
+                placeholder="Пароль"
+              />
+            </p>
+            <p class="form__buttons">
+              <button
+                type="submit"
+                class="form__btn btn__animation form__btn--signin"
+              >
+                Sign in
+              </button>
+              <button
+                type="button"
+                class="form__btn btn__animation form__btn--google"
+              >
+                <svg class="google-logo" width="35" height="35">
+                  <use href="./images/icon-google.svg"></use>
+                </svg>
+                Sign in with Google
+              </button>
+            </p>
+          </form>
+
+          <form action="#" class="form form__signup">
+            <h3 class="form-title">Let`s create new user</h3>
+            <p>
+              <input
+                type="text"
+                name="email"
+                class="form__input"
+                placeholder="Email"
+              />
+            </p>
+            <p>
+              <input
+                type="password"
+                name="password"
+                class="form__input"
+                placeholder="Password"
+              />
+            </p>
+
+            <p class="form__buttons">
+              <button
+                type="submit"
+                class="form__btn btn__animation form__btn--signup"
+              >
+                Sign up
+              </button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

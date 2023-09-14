@@ -1,0 +1,22 @@
+{
+  "name": "modal-authorization-js",
+  "version": "1.0.0",
+  "homepage": "https://korzhenkovitalii.github.io/modal-authorization-js/",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "'vitalii korzhenko' korzhenko.vitalii@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "joi": "^17.10.1",
+    "modern-normalize": "^2.0.0",
+    "notiflix": "^3.2.6"
+  }
+}
