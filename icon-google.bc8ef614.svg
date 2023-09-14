@@ -1,4 +1,4 @@
-<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg aria-hidden="true" style="width: 0; height: 0; position: absolute; overflow: hidden" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="icon-google" viewBox="0 0 32 32">
 <path fill="#78a0cf" style="fill: var(--color1, #78a0cf)" d="M4.16 8.64c-0.353 0-0.64 0.287-0.64 0.64s0.287 0.64 0.64 0.64v0c0.353 0 0.64-0.287 0.64-0.64s-0.287-0.64-0.64-0.64v0z"></path>
